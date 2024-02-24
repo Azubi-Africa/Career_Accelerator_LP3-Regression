@@ -1,6 +1,7 @@
-**Regression Project (Store Sales -- Time Series Forecasting)**
+# **Time Series Regression Analysis (Corporation Favorita)**
+![image](https://github.com/Azubi-Africa/Career_Accelerator_LP3-Regression/assets/97846040/8f367d02-afdf-48d7-9ad3-46bd4e93f425)
 
-This is a time series forecasting problem. In this project, you'll
+This is a time series regression analysis problem. In this project, you'll
 predict store sales on data from Corporation Favorita, a large
 Ecuadorian-based grocery retailer.
 
