@@ -97,21 +97,16 @@ holidays_events.csv
 The questions below are to be answered. Do note that, you are free to
 draw more hypothesis from the data.
 
-1.  Is the train dataset complete (has all the required dates)?
-
-2.  Which dates have the lowest and highest sales for each year?
-
-3.  Did the earthquake impact sales?
-
-4.  Are certain groups of stores selling more products? (Cluster, city,
-    state, type)
-
-5.  Are sales affected by promotions, oil prices and holidays?
-
-6.  What analysis can we get from the date and its extractable features?
-
-7.  What is the difference between RMSLE, RMSE, MSE (or why is the MAE
-    greater than all of them?)
+1. Is the train dataset complete (has all the required dates)?
+2. Which dates have the lowest and highest sales for each year (excluding days the store was closed)?
+3. Compare the sales for each month across the years and determine which month of which year had the highest sales.
+4. Did the earthquake impact sales?
+5. Are certain stores or groups of stores selling more products? (Cluster, city, state, type)
+6. Are sales affected by promotions, oil prices and holidays?
+7. What analysis can we get from the date and its extractable features?
+8. Which product family and stores did the promotions affect.
+9. What is the difference between RMSLE, RMSE, MSE (or why is the MAE greater than all of them?)
+10. Does the payment of wages in the public sector on the 15th and last days of the month influence the store sales.
 
 Your task is to **build a model** that more accurately predicts the unit
 sales for thousands of items.
