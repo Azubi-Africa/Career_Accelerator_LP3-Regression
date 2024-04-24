@@ -92,11 +92,11 @@ building your models
     products which greatly affected supermarket sales for several
     weeks after the earthquake.
 
-**Hypothesis & Questions**
+**Hypothesis**
 - Formulate 1 null and alternate hypothesis each.
 
-- The questions below are to be answered. Do note that, you are free to
-draw more hypothesis from the data.
+**Analytical Questions:** The questions below are to be answered. Do note that, you are free to
+draw more questions from the data after answering these questions.
 
 1. Is the train dataset complete (has all the required dates)?
 2. Which dates have the lowest and highest sales for each year (excluding days the store was closed)?
