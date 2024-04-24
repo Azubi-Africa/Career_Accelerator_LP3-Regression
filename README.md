@@ -1,7 +1,9 @@
 # **Time Series Regression Analysis (Corporation Favorita)**
 ![image](https://github.com/Azubi-Africa/Career_Accelerator_LP3-Regression/assets/97846040/8f367d02-afdf-48d7-9ad3-46bd4e93f425)
 
-This is a time series regression analysis problem. In this project, you'll
+**Scenario**: You are a data scientist in Corporation Favorita, a large Ecuadorian-based grocery retailer. Corporation Favorita wants to ensure that they always have the right quantity of products in stock. To do this you have decided to build a series of machine learning models to forecast the demand of products in various locations. The marketing and sales team have provided you with some data to aid this endeavor. Your team uses CRISP-DM Framework for Data Science projects
+
+This is a **time series regression analysis** problem. In this project, you'll
 predict store sales on data from Corporation Favorita, a large
 Ecuadorian-based grocery retailer.
 
@@ -15,7 +17,7 @@ building your models
 
 **File Descriptions and Data Field Information**
 
-train.csv
+**train.csv**
 
 -   The training data, comprising time series of features store_nbr, family, 
     and onpromotion as well as the target sales.
@@ -31,33 +33,33 @@ train.csv
 -   **onpromotion** gives the total number of items in a product family that
     were being promoted at a store at a given date.
 
-test.csv
+**test.csv**
 
 -   The test data, having the same features as the training data. You will predict the target sales for the dates in this file.
 
 -   The dates in the test data are for the 15 days after the last date in the training data.
 
-transaction.csv
+**transaction.csv**
 
 -   Contains date, store_nbr and transaction made on that specific date.
 
-sample_submission.csv
+**sample_submission.csv**
 
 -   A sample submission file in the correct format.
 
-stores.csv
+**stores.csv**
 
 -   Store metadata, including city, state, type, and cluster.
 
 -   cluster is a grouping of similar stores.
 
-oil.csv
+**oil.csv**
 
 -   **Daily oil price** which includes values during both the train and
      test data timeframes. (Ecuador is an oil-dependent country and its
      economical health is highly vulnerable to shocks in oil prices.)
 
-holidays_events.csv
+**holidays_events.csv**
 
 -   Holidays and Events, with metadata
 
@@ -90,11 +92,10 @@ holidays_events.csv
     products which greatly affected supermarket sales for several
     weeks after the earthquake.
 
-**Data Preparation**
-
 **Hypothesis & Questions**
+- Formulate 1 null and alternate hypothesis each.
 
-The questions below are to be answered. Do note that, you are free to
+- The questions below are to be answered. Do note that, you are free to
 draw more hypothesis from the data.
 
 1. Is the train dataset complete (has all the required dates)?
@@ -108,28 +109,16 @@ draw more hypothesis from the data.
 9. What is the difference between RMSLE, RMSE, MSE (or why is the MAE greater than all of them?)
 10. Does the payment of wages in the public sector on the 15th and last days of the month influence the store sales.
 
-Your task is to **build a model** that more accurately predicts the unit
-sales for thousands of items.
+#### **Your task is to **build a model** that more accurately predicts the unit sales for thousands of items.**
 
-**Important**
+#### **Important**
 
 -   Document process from data cleaning, analysis, assumptions, model
     building etc. Marks will be awarded for documentation.
 
-**Rubric**
+### **Rubrics**
 
-**Documentation**:
-
--   Excellent: Having documentation on the project ie data cleaning,
-    analysis, hypothesis and model.
-
--   Good: Gave a summary on some of the processes
-
--   Fair: Gave a bullet list of the processes with short sentences
-
--   Poor: No documentation
-
-**Hypothesis Analysis &Visualization:**
+#### **Hypothesis, EDA & Analytical Questions**
 
 -   Excellent: Validated the hypothesis and answered all questions
     listed earlier with appropriate charts. Used relevant diagrams and
@@ -143,7 +132,7 @@ sales for thousands of items.
 
 -   Poor: Not answered any of the hypothesis
 
-**Model Building:**
+#### **Model Building & Improvement**
 
 -   Excellent: Model has an RMSLE of 0.2
 
@@ -152,3 +141,15 @@ sales for thousands of items.
 -   Fair: Model has RMSLE of 0.4
 
 -   Poor: Model has RMSLE of 0.4 +
+
+
+#### **Documentation & Key Insight**:
+
+-   Excellent: Having documentation on the project ie data cleaning,
+    analysis, hypothesis and model.
+
+-   Good: Gave a summary on some of the processes
+
+-   Fair: Gave a bullet list of the processes with short sentences
+
+-   Poor: No documentation
